@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9ac80604cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <section id="mobile__menu_window" class="hidden">
+      <div class="window_container">
+        <div class="btn_container">
+          <button id="btn_close" class="mobile__btn_menu">
+            Menu <i class="fa-solid fa-xmark icon_xmark"></i>
+          </button>
+        </div>
+        <div class="menu_container">
+          <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="original_window">
+      <header id="header__mobile" class="hidden">
+        <div class="mobile__left_column">
+          <h1 class="title">Hever</h1>
+          <p class="address">1 Example Street, Anytown, 10100 USA</p>
+          <ul class="icons">
+            <li class="icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="icon"><i class="fa-brands fa-instagram"></i></li>
+            <li class="icon"><i class="fa-brands fa-500px"></i></li>
+          </ul>
+        </div>
+        <button id="btn_open" class="mobile__btn_menu">
+          Menu <i class="fa-solid fa-plus icon_plus"></i>
+        </button>
+      </header>
+
+      <header id="header__desktop">
+        <div class="desktop__left_column">
+          <h1 class="title" onclick="window.location.href = './index.html'">
+            Hever
+          </h1>
+          <p class="address">1 Example Street, Anytown, 10100 USA</p>
+        </div>
+        <div class="desktop__right_column">
+          <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <ul class="icons">
+            <li class="icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="icon"><i class="fa-brands fa-instagram"></i></li>
+            <li class="icon"><i class="fa-brands fa-500px"></i></li>
+          </ul>
+        </div>
+      </header>
+
+      <h2 class="page_title">Contact</h2>
+
+      <article class="page__description">
+        <p>
+          Let’s talk 👋 Don’t hesitate to reach out with the contact information
+          below, or send a message using the form.
+        </p>
+      </article>
+
+      <div class="contact__contact_container">
+        <div class="contact__getInTouch">
+          <h2>Get in Touch</h2>
+          <p>
+            1 Example Street Anytown, 10100<br />
+            USA
+          </p>
+          <a href="#">mail@example.com</a>
+          <a href="#">(555) 555 1234</a>
+        </div>
+        <form class="contact__message">
+          <h2>Send Us a Message</h2>
+          <label for="name">Name(required)</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email(required)</label>
+          <input type="email" id="email" name="email" required />
+          <label for="website">Website</label>
+          <input type="text" id="website" name="website" />
+          <label for="message">Message(required)</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="6"
+            required
+          ></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <footer id="footer__mobile" class="hidden">
+        <h4>Howdy</h4>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p>
+          <a href="./index.html" class="emphasize">Hever</a>,
+          <a href="https://wordpress.com/" target="_blank"
+            >Website Powered by WordPress.com.</a
+          >
+        </p>
+      </footer>
+
+      <footer id="footer__desktop">
+        <div class="desktop__left_column">
+          <h4>Howdy</h4>
+          <p>
+            <a href="./index.html" class="emphasize">Hever</a>,
+            <a href="https://wordpress.com/" target="_blank"
+              >Website Powered by WordPress.com.</a
+            >
+          </p>
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </footer>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>

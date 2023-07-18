@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9ac80604cb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>News</title>
+  </head>
+  <body>
+    <section id="mobile__menu_window" class="hidden">
+      <div class="window_container">
+        <div class="btn_container">
+          <button id="btn_close" class="mobile__btn_menu">
+            Menu <i class="fa-solid fa-xmark icon_xmark"></i>
+          </button>
+        </div>
+        <div class="menu_container">
+          <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="original_window">
+      <header id="header__mobile" class="hidden">
+        <div class="mobile__left_column">
+          <h1 class="title">Hever</h1>
+          <p class="address">1 Example Street, Anytown, 10100 USA</p>
+          <ul class="icons">
+            <li class="icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="icon"><i class="fa-brands fa-instagram"></i></li>
+            <li class="icon"><i class="fa-brands fa-500px"></i></li>
+          </ul>
+        </div>
+        <button id="btn_open" class="mobile__btn_menu">
+          Menu <i class="fa-solid fa-plus icon_plus"></i>
+        </button>
+      </header>
+
+      <header id="header__desktop">
+        <div class="desktop__left_column">
+          <h1 class="title" onclick="window.location.href = './index.html'">
+            Hever
+          </h1>
+          <p class="address">1 Example Street, Anytown, 10100 USA</p>
+        </div>
+        <div class="desktop__right_column">
+          <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+          <ul class="icons">
+            <li class="icon">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="icon"><i class="fa-brands fa-instagram"></i></li>
+            <li class="icon"><i class="fa-brands fa-500px"></i></li>
+          </ul>
+        </div>
+      </header>
+
+      <h2 class="page_title">News</h2>
+
+      <div class="news__img"></div>
+
+      <div class="news__articles">
+        <article class="news__article">
+          <h2>Berlin</h2>
+          <p>
+            Berlin, the largest city of the German empire, the capital of the
+            kingdom of Prussia.1911 Encyclopædia Britannica, Volume 3 The images
+            above are presented in a Jetpack Tiled Gallery block, set to the
+            Circles style.
+          </p>
+          <small
+            >by <span class="author">Joan Smith</span>
+            <span class="date">August 1, 2019</span></small
+          >
+        </article>
+        <article class="news__article">
+          <h2>Yosemite</h2>
+          <p>
+            Yosemite National Park in California spans roughly 750,000 acres. It
+            has been a UNSECO World Heritage Site since 1984. The images above
+            are displayed in a Jetpack Tiled Gallery block. The gallery block is
+            contained within a Group block. The Group block is set to full width
+            and has a dark background.
+          </p>
+          <small
+            >by <span class="author">Joan Smith</span>
+            <span class="date">August 1, 2019</span></small
+          >
+        </article>
+        <button>Load more posts</button>
+      </div>
+
+      <form class="news__subscribe">
+        <h2>Follow Our Blog</h2>
+        <p>Get new content delivered directly to your inbox.</p>
+        <input type="email" placeholder="Email Address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+
+      <footer id="footer__mobile" class="hidden">
+        <h4>Howdy</h4>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <p>
+          <a href="./index.html" class="emphasize">Hever</a>,
+          <a href="https://wordpress.com/" target="_blank"
+            >Website Powered by WordPress.com.</a
+          >
+        </p>
+      </footer>
+
+      <footer id="footer__desktop">
+        <div class="desktop__left_column">
+          <h4>Howdy</h4>
+          <p>
+            <a href="./index.html" class="emphasize">Hever</a>,
+            <a href="https://wordpress.com/" target="_blank"
+              >Website Powered by WordPress.com.</a
+            >
+          </p>
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./news.html">News</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </footer>
+    </section>
+    <script src="main.js"></script>
+  </body>
+</html>
